@@ -17,9 +17,9 @@ body {
 
 
 h1 {
-    color: rgb(112, 60, 29);
-    text-shadow: 2px 2px 4px rgb(82, 49, 1), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
-    font-size: 50px;
+    color: rgb(90, 48, 23);
+    text-shadow: 2px 2px 4px rgb(82, 49, 1), 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+    font-size: 50px;    
 }
 
 
@@ -30,6 +30,7 @@ p {
 
 .thetop {
     max-width: 750px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -51,7 +52,6 @@ header {
 .moving {
     max-width: 200px;
     margin: 20px 0px;
-
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -147,7 +147,11 @@ footer {
     margin-bottom: 10px;
     padding: 5px;
     max-width: 750px;
-    min-width: 400px;
-
+    min-width: 360px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.document {
+    min-width: 360;
 }
