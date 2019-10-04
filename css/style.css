@@ -19,7 +19,7 @@ body {
 h1 {
     color: rgb(90, 48, 23);
     text-shadow: 2px 2px 4px rgb(82, 49, 1), 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
-    font-size: 50px;    
+    font-size: 50px;
 }
 
 
@@ -30,13 +30,12 @@ p {
 
 .thetop {
     max-width: 750px;
-    
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
 }
-
 
 
 header {
@@ -48,13 +47,11 @@ header {
 }
 
 
-
 .moving {
     max-width: 200px;
     margin: 20px 0px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
-
 
 
 body {
@@ -70,7 +67,6 @@ img {
     object-fit: contain;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
-
 
 
 .content {
@@ -92,7 +88,6 @@ img {
 }
 
 
-
 .container {
     background-color: rgba(205, 133, 63, 0.75);
     border: 2px solid black;
@@ -105,7 +100,6 @@ img {
     justify-content: space-around;
     align-items: center;
 }
-
 
 
 .item {
@@ -126,7 +120,6 @@ img {
 }
 
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -138,7 +131,6 @@ ul {
     justify-content: center;
     justify-content: space-around;
 }
-
 
 
 footer {
@@ -153,5 +145,5 @@ footer {
 
 
 .document {
-    min-width: 360;
+    min-width: 360px;
 }
