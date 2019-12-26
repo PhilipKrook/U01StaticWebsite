@@ -143,6 +143,10 @@ footer {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
+.navigation {
+    color: white;
+}
+
 
 .document {
     min-width: 360px;
